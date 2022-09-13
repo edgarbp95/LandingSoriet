@@ -36,7 +36,7 @@ function App() {
           <div className="sm:hidden">
             <SliderImg />
           </div>
-          <div className="px-10">
+          <div className="px-10 md:hidden ">
             <SliderGalleryMobile />
           </div>
       </div>

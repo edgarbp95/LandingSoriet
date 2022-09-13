@@ -4,6 +4,7 @@ import "./button.css"
 const Button = () => {
   return (
     <>
+    <a href="https://wa.me/+584141062111?text=Hola!%20Necesito%20un%20presupuesto%20de%20diseño.%20" target="_blank">
       <button className='w-min button-contact my-4 sm:mx-auto'>
         <div className="svg-wrapper-1">
             <div className="svg-wrapper">
@@ -14,7 +15,8 @@ const Button = () => {
             </div>
         </div>
         <span>Contacto</span>
-        </button>
+      </button>
+    </a>
     </>
   )
 }
