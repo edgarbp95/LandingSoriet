@@ -1,0 +1,14 @@
+.bg-desktop{
+    background-image: url(./images/background-desktop.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+
+    background-position: top center;
+    height: 650px;
+}
+
+.banner-desk{
+    width: 700px;
+    margin: 0 auto;
+}
+
