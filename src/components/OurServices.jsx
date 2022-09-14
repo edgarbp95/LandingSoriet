@@ -91,30 +91,38 @@ const OurServices = () => {
 
   return (
     <div className='flex sm:flex-col'>
-        <div data-aos="fade-left" data-aos-duration="1000"  data-aos-offset="300" className='flex sm:flex-col gap-4 relative  justify-center px-20 sm:px-0'>
+        <div data-aos="fade-right" data-aos-duration="1000"  data-aos-offset="300" className='flex sm:flex-col gap-4 relative  justify-center px-20 sm:px-0'>
             <div className='flex gap-4 flex-col '>
-                <div onClick={()=>{setService(0), containerService.current.classList.add("aparecer")}} ref={card0} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-400 flex flex-col items-center justify-center text-center gap-4'>
-                    <h2 className='font-semibold text-blue-d'>{services[0].name} </h2>
-                    <p className='text-sm w-full px-4 mx-auto'>{services[0].description}</p>
-                </div>
-                <div onClick={()=>{setService(1), containerService.current.classList.add("aparecer")}} ref={card1} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-500 flex flex-col items-center justify-center text-center gap-4'>
-                    <h2 className='font-semibold text-blue-d'>{services[1].name} </h2>
-                    <p className='text-sm w-full px-4 mx-auto'>{services[1].description}</p>
-                </div>
+                <a href="#container-service">
+                    <div onClick={()=>{setService(0), containerService.current.classList.add("aparecer")}} ref={card0} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-400 flex flex-col items-center justify-center text-center gap-4'>
+                        <h2 className='font-semibold text-blue-d'>{services[0].name} </h2>
+                        <p className='text-sm w-full px-4 mx-auto'>{services[0].description}</p>
+                    </div>
+                </a>
+                <a href="#container-service">
+                    <div onClick={()=>{setService(1), containerService.current.classList.add("aparecer")}} ref={card1} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-500 flex flex-col items-center justify-center text-center gap-4'>
+                        <h2 className='font-semibold text-blue-d'>{services[1].name} </h2>
+                        <p className='text-sm w-full px-4 mx-auto'>{services[1].description}</p>
+                    </div>
+                </a>
+                
             </div>
             <div className='flex gap-4 flex-col  mt-8 sm:mt-0'>
-                <div onClick={()=>{setService(2),containerService.current.classList.add("aparecer")}} ref={card2} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-500 flex flex-col items-center justify-center text-center gap-4'>
-                    <h2 className='font-semibold text-blue-d'>{services[2].name} </h2>
-                    <p className='text-sm w-full px-4 mx-auto'>{services[2].description}</p>
-                </div>
-                <div onClick={()=>{setService(3),containerService.current.classList.add("aparecer")}} ref={card3} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-500 flex flex-col items-center justify-center text-center gap-4'>
-                    <h2 className='font-semibold text-blue-d'>{services[3].name}</h2>
-                    <p className='text-sm w-full mx-auto px-4'>{services[3].description}</p>
-                    
-                </div>
+                <a href="#container-service">
+                    <div onClick={()=>{setService(2),containerService.current.classList.add("aparecer")}} ref={card2} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-500 flex flex-col items-center justify-center text-center gap-4'>
+                        <h2 className='font-semibold text-blue-d'>{services[2].name} </h2>
+                        <p className='text-sm w-full px-4 mx-auto'>{services[2].description}</p>
+                    </div>
+                </a>
+                <a href="#container-service">
+                    <div onClick={()=>{setService(3),containerService.current.classList.add("aparecer")}} ref={card3} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-500 flex flex-col items-center justify-center text-center gap-4'>
+                        <h2 className='font-semibold text-blue-d'>{services[3].name}</h2>
+                        <p className='text-sm w-full mx-auto px-4'>{services[3].description}</p>
+                    </div>
+                </a>
             </div>
         </div>
-        <div ref={containerService} className="w-full p-10 flex flex-col gap-4">
+        <div id='container-service' ref={containerService} className="w-full p-10 flex flex-col gap-4">
             <h2 ref={nameRef} data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className="uppercase mb-6 text-3xl font-bold tracking-wide sm:text-2xl sm:text-center"></h2>
             <p ref={descriptionRef} data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className='text-justify sm:text-sm'></p>
             <p data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className='text-blue-d sm:text-sm sm:font-semibold'>Costo: <span className='text-black' ref={priceRef}></span></p>
