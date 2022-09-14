@@ -118,7 +118,7 @@ const OurServices = () => {
             <h2 ref={nameRef} data-aos="zoom-in" data-aos-duration="500" className="uppercase mb-6 text-3xl font-bold tracking-wide sm:text-2xl sm:text-center"></h2>
             <p ref={descriptionRef} data-aos="zoom-in" data-aos-duration="500" className='text-justify sm:text-sm'></p>
             <p className='text-blue-d sm:text-sm sm:font-semibold'>Costo: <span className='text-black' ref={priceRef}></span></p>
-            <div data-aos="zoom-in" data-aos-duration="500" className='mt-6'>
+            <div className='mt-6'>
              <ButtonConsult />
             </div>
         </div>
