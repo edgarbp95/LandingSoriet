@@ -114,9 +114,9 @@ const OurServices = () => {
                 </div>
             </div>
         </div>
-        <div ref={containerService} data-aos="" data-aos-duration="500" className="w-full p-10 flex flex-col gap-4">
-            <h2 ref={nameRef} data-aos="zoom-in" data-aos-duration="500" className="uppercase mb-6 text-3xl font-bold tracking-wide sm:text-2xl sm:text-center"></h2>
-            <p ref={descriptionRef} data-aos="zoom-in" data-aos-duration="500" className='text-justify sm:text-sm'></p>
+        <div ref={containerService} data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className="w-full p-10 flex flex-col gap-4">
+            <h2 ref={nameRef} className="uppercase mb-6 text-3xl font-bold tracking-wide sm:text-2xl sm:text-center"></h2>
+            <p ref={descriptionRef} className='text-justify sm:text-sm'></p>
             <p className='text-blue-d sm:text-sm sm:font-semibold'>Costo: <span className='text-black' ref={priceRef}></span></p>
             <div className='mt-6'>
              <ButtonConsult />
