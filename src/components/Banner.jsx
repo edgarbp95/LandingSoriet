@@ -59,8 +59,8 @@ const Banner = () => {
       
       <div className='w-2/4 flex flex-col gap-1 justify-center relative sm:w-full sm:px-4 sm:text-justify'>
         <p className='text-base pb-1 text-gray-500 sm:text-xs'>Muestrale al mundo lo que eres capaz de hacer</p>
-        <p className='text-3xl sm:text-2xl'><span ref={textRef} className='border-r-2 border-blue-500 text-4xl sm:text-3xl font-semibold text-blue-l pr-1'>Crea</span> tu pagina web</p>
-        <p className='text-base text-gray-700 w-11/12 mt-2 sm:text-sm sm:w-full'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque cupiditate corporis amet dolorem ratione enim numquam saepe porro quae vitae sint fugiat possimus totam culpa doloribus, quam voluptatem corrupti soluta?</p>
+        <p className='text-3xl sm:text-2xl'><span ref={textRef} className='border-r-2 border-blue-500 text-4xl sm:text-3xl font-semibold text-blue-l pr-1'>Crea</span> tu marca</p>
+        <p className='text-base text-gray-700 w-11/12 mt-2 sm:text-sm sm:w-full'>Contamos con diseño especializado para páginas webs, redes sociales, logotipos, y mucho más. Contactanos y refuerza la identidad de tu empresa a los mejores precios del mercado.</p>
         
         <Button />
       </div>
