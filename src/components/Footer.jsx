@@ -12,7 +12,6 @@ const Footer = () => {
         </div>
         <ul className="text-white mt-10 flex h-6 gap-5 w-full justify-end sm:gap-2 sm:grid sm:grid-cols-2 sm:content-center sm:hidden">
           <a href="#services"><li className="nav_menu_option cursor-pointer hover:text-blue-l font-normal text-sm relative md:text-xs sm:text-center">SERVICIOS</li></a>
-          <a href="#gallery"><li className="nav_menu_option cursor-pointer hover:text-blue-l font-normal text-sm relative md:text-xs sm:text-center">GALERIA</li></a>
           <a href="https://wa.me/+584141062111?text=Hola!%20Necesito%20un%20presupuesto%20de%20diseño.%20" target="_blank" ><li className="nav_menu_option cursor-pointer hover:text-blue-l font-normal text-sm relative md:text-xs sm:text-center">CONTACTO</li></a>        
         </ul>
       </div>
