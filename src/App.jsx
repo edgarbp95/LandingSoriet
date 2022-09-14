@@ -27,11 +27,11 @@ function App() {
       </div>
     </div>
       <div id="services">
-        <div className="flex">
+        <div data-aos="fade-right" data-aos-duration="1000" className="flex">
           <OurServices />
         </div>
       </div>
-      <div id="gallery" className="w-full px-20 sm:px-0 mx-auto my-20 sm:mt-6 sm:mb-0" data-aos="fade-right" data-aos-duration="1000"  data-aos-offset="300">
+      <div id="gallery" className="w-full sm:px-0 mx-auto my-20 sm:mt-6 sm:mb-0" data-aos="fade-right" data-aos-duration="1000">
           <h2 className="uppercase text-center mb-10 text-3xl font-bold tracking-widest sm:text-2xl sm:w-2/3 sm:mx-auto">Nuestros trabajos</h2>
           <div className="sm:hidden">
             <SliderImg />

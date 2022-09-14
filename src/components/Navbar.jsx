@@ -5,7 +5,7 @@ import logoSoriet from "/src/images/logo.png"
 const Navbar = () => {
   return (
     <div className='flex justify-between px-10 pt-8 pb-0 items-center sm:flex-col sm:px-0  '>
-      <img className='h-16 sm:pb-4' src={logoSoriet} alt="Logo Soriet" />
+      <img className='h-16 sm:pb-4 sm:h-20' src={logoSoriet} alt="Logo Soriet" />
       <ul className='flex gap-8 font-semibold'>
         <a href="#services" className='hover:text-blue-l duration-300 text-sm'><li>Servicios</li></a>
         <a href="#gallery" className='hover:text-blue-l duration-300 text-sm'><li>Gallería</li></a>
