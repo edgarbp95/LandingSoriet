@@ -16,7 +16,7 @@ function App() {
     <div className="px-32 scroll-smooth sm:px-2">
     <div className="bg-top">
       {/* <img className="absolute z-0 w-full " src={bgDesktop} alt="" /> */}
-      <div data-aos="fade-left" data-aos-duration="1000"  data-aos-offset="300"  className="main-container z-10">
+      <div data-aos="fade-right" data-aos-duration="1000" className="main-container z-10">
         <div >
           <Navbar />
         </div>
