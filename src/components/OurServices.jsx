@@ -8,7 +8,7 @@ const OurServices = () => {
     let services = [
         {
             name:"Logotipos",
-            description: "Diseña tu logo y dale valor a tu marca. Creaciones unicas y personalizadas.",
+            description: "Diseña tu logo y dale valor a tu marca. Creaciones únicas y personalizadas.",
             fullDescription:"El logo es tu identidad, por lo que es muy importante que cuentes con una imagen que represente a tu marca. El servicio de diseño de logo incluye un pack con 3 diseños diferentes para que escojas el que más se adapte a tí.",
             price:"A convenir."
         },
