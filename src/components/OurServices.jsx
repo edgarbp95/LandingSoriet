@@ -91,7 +91,7 @@ const OurServices = () => {
 
   return (
     <div className='flex sm:flex-col'>
-        <div className='flex sm:flex-col gap-4 relative  justify-center px-20 sm:px-0'>
+        <div data-aos="fade-left" data-aos-duration="1000"  data-aos-offset="300" className='flex sm:flex-col gap-4 relative  justify-center px-20 sm:px-0'>
             <div className='flex gap-4 flex-col '>
                 <div onClick={()=>{setService(0), containerService.current.classList.add("aparecer")}} ref={card0} className='h-44 w-64 sm:w-full sm:h-32 bg-gray-100 rounded-lg shadow-lg shadow-gray-400 flex flex-col items-center justify-center text-center gap-4'>
                     <h2 className='font-semibold text-blue-d'>{services[0].name} </h2>
@@ -114,11 +114,11 @@ const OurServices = () => {
                 </div>
             </div>
         </div>
-        <div ref={containerService} data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className="w-full p-10 flex flex-col gap-4">
-            <h2 ref={nameRef} className="uppercase mb-6 text-3xl font-bold tracking-wide sm:text-2xl sm:text-center"></h2>
-            <p ref={descriptionRef} className='text-justify sm:text-sm'></p>
-            <p className='text-blue-d sm:text-sm sm:font-semibold'>Costo: <span className='text-black' ref={priceRef}></span></p>
-            <div className='mt-6'>
+        <div ref={containerService} className="w-full p-10 flex flex-col gap-4">
+            <h2 ref={nameRef} data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className="uppercase mb-6 text-3xl font-bold tracking-wide sm:text-2xl sm:text-center"></h2>
+            <p ref={descriptionRef} data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className='text-justify sm:text-sm'></p>
+            <p data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className='text-blue-d sm:text-sm sm:font-semibold'>Costo: <span className='text-black' ref={priceRef}></span></p>
+            <div data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300" className='mt-6'>
              <ButtonConsult />
             </div>
         </div>

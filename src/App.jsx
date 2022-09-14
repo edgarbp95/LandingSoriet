@@ -27,7 +27,7 @@ function App() {
       </div>
     </div>
       <div id="services">
-        <div data-aos="fade-right" data-aos-duration="1000"  data-aos-offset="300" className="flex">
+        <div className="flex">
           <OurServices />
         </div>
       </div>
