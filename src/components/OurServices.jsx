@@ -25,7 +25,7 @@ const OurServices = () => {
             price:"A convenir."
         },
         {
-            name:"Diseños Personalizados",
+            name:"Artes para Redes Sociales",
             description: "Te brindamos atención 100% personalizada, cuentamos tu idea y la hacemos realidad.",
             fullDescription:"Todos nuestros servicios son personalizados y a la medida. Trae tu idea y crearemos un diseño original y creativo. Si estás necesitando artes para promocionar tu negocio en las redes sociales, no dudes en contactarnos.",
             price:"A convenir."
