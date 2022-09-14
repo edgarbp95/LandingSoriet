@@ -10,7 +10,7 @@ const SliderGalleryMobile = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
       };
 
       const collection = [
@@ -93,7 +93,7 @@ const SliderGalleryMobile = () => {
 
   return (
     <div className='mb-24'>
-      <Slider {...settings}>
+      <Slider {...settings} arrows={false}>
         {collection.map((item)=>(
           <CardGallery  imgCard={item.img} name={item.name} description={item.description} />
         ))}
