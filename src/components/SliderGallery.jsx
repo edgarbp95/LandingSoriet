@@ -16,6 +16,76 @@ const SliderImg = () => {
 
       const collection = [
       {    
+        img:"https://i.ibb.co/DGDWR9r/arte.jpg",
+        name:"Arte para redes",
+        description:"Contenido para redes sociales.",
+      },
+      {
+        img:"https://i.ibb.co/0DKV3Y8/branding-3-1080-x1350.jpg",
+        name:"Arte para redes",
+        description: "Contenido para redes sociales."
+      },
+      {
+        img:"https://i.ibb.co/Jcx7V8v/CARRUSEL-TECNOFUEGO-1.jpg",
+        name:"Carrusel Tecnofuego",
+        description:"Arte de carrusel realizado para Tecnofuego.",
+      },
+      {
+        img:"https://i.ibb.co/Wxjz9Xy/CARRUSEL-TECNOFUEGO2.jpg",
+        name:"Carrusel Tecnofuego",
+        description:"Arte de carrusel realizado para Tecnofuego.",
+      },
+      {
+        img:"https://i.ibb.co/42sYgRj/CARRUSEL-TECNOFUEGO3.jpg",
+        name:"Carrusel Tecnofuego",
+        description:"Arte de carrusel realizado para Tecnofuego.",
+      },
+      {
+        img:"https://i.ibb.co/vZ50Cww/DISE-O-SISTEMAS-DE-ESPUMA-INSTAGRAM.png",
+        name:"Arte Instagram",
+        description:"Arte realizado para empresa contra incendios.",
+      },
+      {
+        img:"https://i.ibb.co/yygCQ6V/extintores-histori2.jpg",
+        name:"Extintores contra incendios",
+        description:"Arte para publicidad de extintores ANSUL.",
+      },
+      {
+        img:"https://i.ibb.co/6YFLc5V/FECHAS-2023-Enero-a-Junio.jpg",
+        name:"Diseño de calendario",
+        description:"Creación de calendario para impresión.",
+      },
+      {
+        img:"https://i.ibb.co/jZRFknb/janet-2-1080-x1350.jpg",
+        name:"Arte para sitio gastronomico",
+        description:"Diseño realizado para el Fogon del Tibidabo.",
+      },
+      {
+        img:"https://i.ibb.co/25VjfMv/janet-4-1080-x1350.jpg",
+        name:"Arte para sitio gastronomico",
+        description:"Diseño realizado para el Fogon del Tibidabo.",
+      },
+      {
+        img:"https://i.ibb.co/p1r2CZZ/janet-pub-1080-x1350.jpg",
+        name:"Arte para sitio gastronomico",
+        description:"Diseño realizado para el Fogon del Tibidabo.",
+      },
+      {
+        img:"https://i.ibb.co/3kRc9qZ/ROCIADORES-Y-BOQUILLAS-INSTAGRAM.jpg",
+        name:"Arte para empresa Tecnofuego",
+        description:"Diseño para instagram sobre rociadores y boquillas contra incendios.",
+      },
+      {
+        img:"https://i.ibb.co/FmLVCCj/SS-PERFUMES-2.jpg",
+        name:"Diseño SS Perfumes",
+        description:"Arte para emprendimiento de perfumeria.",
+      },
+      {
+        img:"https://i.ibb.co/dW5PhyG/SS-PERFUMESi.jpg",
+        name:"Diseño SS Perfumes",
+        description:"Arte para emprendimiento de perfumeria.",
+      },
+      {    
         img:"https://i.ibb.co/0nkpZrm/portfolio-web.jpg",
         name:"Portfolio de Proyectos",
         description:"Plantilla para portfolio de proyectos, artes, y más.",
